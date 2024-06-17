@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #903ed3;
+}
+
+header {
+    background-color: #e246bb;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+}
+
+.catalogo {
+    display: flex;
+    justify-content: center; /* Centra los elementos dentro del catálogo */
+    flex-wrap: wrap;
+    max-width: 800
+    px; /* Ajusta el tamaño máximo del contenedor */
+    margin: 0.5 auto; /* Centra el contenedor del catálogo */
+}
+
+.prenda {
+    background-color: #d8bfd8; /* Color lila */
+    border: 2px solid #8a2be2; /* Color morado */
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.2s; /* Transición suave */
+}
+
+.prenda img {
+    max-width: 100%;
+    border-bottom: 2px solid #8a2be2; /* Color morado */
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.prenda:hover {
+    transform: scale(1.05); /* Efecto al pasar el ratón */
+}
+
+footer {
+    background-color: #8a2be2;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
